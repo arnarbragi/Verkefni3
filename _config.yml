@@ -1,3 +1,5 @@
+baseurl: "Verkefni3" 
+
 collections:
   authors:
     output: true
