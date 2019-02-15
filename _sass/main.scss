@@ -73,4 +73,7 @@ a:hover {
   a {
     display: inline-block;
   }
+  .menu {
+    list-style: list-style-type list-style-position list-style-image|initial|inherit;
+  }
 }
