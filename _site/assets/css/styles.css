@@ -1,5 +1,5 @@
-.bakgrunnur {
-  background-color: lightblue; }
+body {
+  background: lightblue; }
 
 .current {
   color: green; }
@@ -57,5 +57,5 @@ a:hover {
   color: #ff7b29; }
 
 @media screen and (min-width: 500px) {
-  .bakgrunnur {
-    background-color: darkblue; } }
+  body {
+    background: darkblue; } }
