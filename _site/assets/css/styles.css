@@ -60,5 +60,11 @@ a:hover {
   body {
     background: darkblue; }
 
-  nav {
+  .ul {
+    display: inline-block; }
+
+  label {
+    display: none; }
+
+  a {
     display: inline-block; } }
