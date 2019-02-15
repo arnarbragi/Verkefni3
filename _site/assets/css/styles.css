@@ -55,3 +55,7 @@ a {
 
 a:hover {
   color: #ff7b29; }
+
+@media screen and (min-width: 500px) {
+  .bakgrunnur {
+    background-color: darkblue; } }
