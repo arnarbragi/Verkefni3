@@ -1,4 +1,4 @@
-baseurl: "Verkefni3" 
+baseurl: "/" 
 
 collections:
   authors:
