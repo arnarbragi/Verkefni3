@@ -1,5 +1,5 @@
 body {
-  background: lightblue;
+  background: rgb(173, 216, 230);
 }
 
 .current {
@@ -58,9 +58,30 @@ a {
 a:hover {
   color: #ff7b29;
 }
+.mynd {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
 
 
 @media screen and (min-width: 500px){
+.menu {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 15px;
+}
+nav {
+  grid-area: nav;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(170, 216, 230);
+}
+
+
 input {
   display: none;
 }
