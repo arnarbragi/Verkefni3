@@ -18,7 +18,8 @@ label {
   display: inline-block;
   font-size: 18px;
   padding: 5px 9px;
-  transition: all .15s ease; }
+  transition: all .15s ease;
+  align-content: flex-start; }
 
 label:hover {
   color: #ff7b29; }
@@ -64,17 +65,22 @@ h1 {
   display: flex;
   justify-content: center; }
 
+p {
+  justify-content: center; }
+
 @media screen and (min-width: 500px) {
+  body {
+    text-align: center; }
+
   .menu {
+    display: grid;
+    grid-template-columns: auto auto auto;
     margin-left: 50px;
     margin-right: 50px;
     padding: 15px; }
 
-  nav {
-    grid-area: nav;
-    display: flex;
-    justify-content: center;
-    background-color: #aad8e6; }
+  .link {
+    justify-self: center; }
 
   input {
     display: none; }
