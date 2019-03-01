@@ -72,6 +72,9 @@ p {
   body {
     text-align: center; }
 
+  header {
+    background-color: pink; }
+
   .menu {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -80,7 +83,12 @@ p {
     padding: 15px; }
 
   .link {
-    justify-self: center; }
+    justify-self: center;
+    border-right-style: solid;
+    border-right-width: 1px; }
+
+  .link:last-child {
+    border-right-style: none; }
 
   input {
     display: none; }

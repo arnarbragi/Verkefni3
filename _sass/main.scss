@@ -72,11 +72,12 @@ p {
 }
 
 
-
-
 @media screen and (min-width: 500px){
 body {
   text-align: center;
+}
+header {
+  background-color: pink;
 }
 .menu {
   display: grid;
@@ -87,6 +88,11 @@ body {
 }
 .link {
   justify-self: center;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+.link:last-child {
+  border-right-style: none;
 }
 
 input {
