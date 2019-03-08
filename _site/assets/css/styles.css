@@ -1,4 +1,4 @@
-body {
+html {
   background: lightblue; }
 
 .current {
@@ -68,12 +68,25 @@ h1 {
 p {
   justify-content: center; }
 
+.footer {
+  padding-top: 2em;
+  text-align: center; }
+
+.linkar a {
+  display: inline;
+  color: blue; }
+
+.logo {
+  margin-bottom: none;
+  padding-bottom: none; }
+
 @media screen and (min-width: 500px) {
   body {
     text-align: center; }
 
-  header {
-    background-color: pink; }
+  .body {
+    background-color: pink;
+    padding-bottom: 2em; }
 
   .menu {
     display: grid;
