@@ -32,16 +32,19 @@ input:checked + label {
   color: grey;
 }
 nav {
+  background-color: lightblue;
   transform: translateX(-120px);
   overflow: hidden;
   position: fixed;
+  animation-name: navReturn;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
 }
 input:checked ~ nav {
   transform:translateX();
   animation-name: navActive;
   animation-duration: 0.5s;
   animation-fill-mode: both;
-  background-color: lightblue;
 }
 .menu {
   list-style: none;
@@ -102,6 +105,10 @@ h1:hover {
 @keyframes navActive {
   from{ transform: translateX(-20)}
   to{ transform:translateX(0)}
+}
+@keyframes navReturn {
+  from{ transform: translate(0)}
+  to{ transform: translate(-20)}
 }
 @keyframes textHover {
   0% {
